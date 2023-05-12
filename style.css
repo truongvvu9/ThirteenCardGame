@@ -1,0 +1,755 @@
+body {
+    background-color: #308F00;
+}
+
+#Main-Header {
+    text-align: center;
+}
+
+
+
+
+
+#Deck {
+    width: 4%;
+    height: 12%;
+    position: absolute;
+    top: 5px;
+    right: 0;
+
+}
+
+#Rinzler-Computer {
+    width: 10%;
+    height: 20%;
+    position: absolute;
+    top: 12.25%;
+    left: 45%;
+
+
+}
+
+#Evy-Computer {
+    width: 10%;
+    height: 20%;
+    position: absolute;
+    top: 40%;
+    left: 1%;
+
+
+}
+
+#Lyle-Computer {
+    width: 10%;
+    height: 20%;
+    position: absolute;
+    top: 40%;
+    right: 1%;
+
+}
+
+#Used-Card-1 {
+    width: 6%;
+    height: 18%;
+    position: absolute;
+    bottom: 40%;
+    left: 12%;
+
+}
+
+#Used-Card-2 {
+    width: 6%;
+    height: 18%;
+    position: absolute;
+    bottom: 40%;
+    left: 18.25%;
+
+}
+
+#Used-Card-3 {
+    width: 6%;
+    height: 18%;
+    position: absolute;
+    bottom: 40%;
+    left: 24.5%;
+
+}
+
+#Used-Card-4 {
+    width: 6%;
+    height: 18%;
+    position: absolute;
+    bottom: 40%;
+    left: 30.75%;
+
+}
+
+#Used-Card-5 {
+    width: 6%;
+    height: 18%;
+    position: absolute;
+    bottom: 40%;
+    left: 37%;
+
+}
+
+#Used-Card-6 {
+    width: 6%;
+    height: 18%;
+    position: absolute;
+    bottom: 40%;
+    left: 43.25%;
+
+}
+
+#Used-Card-7 {
+    width: 6%;
+    height: 18%;
+    position: absolute;
+    bottom: 40%;
+    left: 49.5%;
+
+}
+
+#Used-Card-8 {
+    width: 6%;
+    height: 18%;
+    position: absolute;
+    bottom: 40%;
+    left: 55.75%;
+
+}
+
+#Used-Card-9 {
+    width: 6%;
+    height: 18%;
+    position: absolute;
+    bottom: 40%;
+    left: 62%;
+
+}
+
+#Used-Card-10 {
+    width: 6%;
+    height: 18%;
+    position: absolute;
+    bottom: 40%;
+    left: 68.25%;
+
+}
+
+#Used-Card-11 {
+    width: 6%;
+    height: 18%;
+    position: absolute;
+    bottom: 40%;
+    left: 74.5%;
+
+}
+
+#Used-Card-12 {
+    width: 6%;
+    height: 18%;
+    position: absolute;
+    bottom: 40%;
+    left: 80.75%;
+
+}
+
+
+
+#Player-Card-1 {
+    width: 6%;
+    height: 18%;
+    position: absolute;
+    bottom: 0;
+    left: 8%;
+
+}
+
+#Player-Card-2 {
+    width: 6%;
+    height: 18%;
+    position: absolute;
+    bottom: 0;
+    left: 14.5%;
+
+}
+
+#Player-Card-3 {
+    width: 6%;
+    height: 18%;
+    position: absolute;
+    bottom: 0;
+    left: 21%;
+
+}
+
+#Player-Card-4 {
+    width: 6%;
+    height: 18%;
+    position: absolute;
+    bottom: 0;
+    left: 27.5%;
+
+}
+
+#Player-Card-5 {
+    width: 6%;
+    height: 18%;
+    position: absolute;
+    bottom: 0;
+    left: 34%;
+
+}
+
+#Player-Card-6 {
+    width: 6%;
+    height: 18%;
+    position: absolute;
+    bottom: 0;
+    left: 40.5%;
+
+}
+
+#Player-Card-7 {
+    width: 6%;
+    height: 18%;
+    position: absolute;
+    bottom: 0;
+    left: 47%;
+
+}
+
+#Player-Card-8 {
+    width: 6%;
+    height: 18%;
+    position: absolute;
+    bottom: 0;
+    left: 53.5%;
+}
+
+#Player-Card-9 {
+    width: 6%;
+    height: 18%;
+    position: absolute;
+    bottom: 0;
+    left: 60%;
+
+}
+
+#Player-Card-10 {
+    width: 6%;
+    height: 18%;
+    position: absolute;
+    bottom: 0;
+    left: 66.5%;
+
+}
+
+#Player-Card-11 {
+    width: 6%;
+    height: 18%;
+    position: absolute;
+    bottom: 0;
+    left: 73%;
+}
+
+#Player-Card-12 {
+    width: 6%;
+    height: 18%;
+    position: absolute;
+    bottom: 0;
+    left: 79.5%;
+}
+
+#Player-Card-13 {
+    width: 6%;
+    height: 18%;
+    position: absolute;
+    bottom: 0;
+    left: 86%;
+}
+
+.evyCardsLeft {
+    width: 7%;
+    height: 5%;
+    position: absolute;
+    top: 58%;
+    left: 3%;
+}
+
+.rinzlerCardsLeft {
+    width: 10%;
+    height: 20%;
+    position: absolute;
+    top: 30%;
+    left: 46.5%;
+}
+
+#Evy-Card-1 {
+    width: 1.5%;
+    height: 4%;
+    position: absolute;
+    top: 61%;
+    left: 1.30%;
+
+}
+
+#Evy-Card-2 {
+    width: 1.5%;
+    height: 4%;
+    position: absolute;
+    top: 61%;
+    left: 3%;
+
+}
+
+#Evy-Card-3 {
+    width: 1.5%;
+    height: 4%;
+    position: absolute;
+    top: 61%;
+    left: 4.7%;
+
+}
+
+#Evy-Card-4 {
+    width: 1.5%;
+    height: 4%;
+    position: absolute;
+    top: 61%;
+    left: 6.4%;
+
+}
+
+#Evy-Card-5 {
+    width: 1.5%;
+    height: 4%;
+    position: absolute;
+    top: 61%;
+    left: 8.1%;
+
+}
+
+#Evy-Card-6 {
+    width: 1.5%;
+    height: 4%;
+    position: absolute;
+    top: 61%;
+    left: 9.8%;
+
+}
+
+#Evy-Card-7 {
+    width: 1.5%;
+    height: 4%;
+    position: absolute;
+    top: 61%;
+    left: 11.5%;
+
+}
+
+#Evy-Card-8 {
+    width: 1.5%;
+    height: 4%;
+    position: absolute;
+    top: 61%;
+    left: 13.2%;
+
+}
+
+#Evy-Card-9 {
+    width: 1.5%;
+    height: 4%;
+    position: absolute;
+    top: 61%;
+    left: 14.9%;
+
+}
+
+#Evy-Card-10 {
+    width: 1.5%;
+    height: 4%;
+    position: absolute;
+    top: 61%;
+    left: 16.6%;
+
+}
+
+#Evy-Card-11 {
+    width: 1.5%;
+    height: 4%;
+    position: absolute;
+    top: 61%;
+    left: 18.3%;
+
+}
+
+#Evy-Card-12 {
+    width: 1.5%;
+    height: 4%;
+    position: absolute;
+    top: 61%;
+    left: 20%;
+
+}
+
+#Evy-Card-13 {
+    width: 1.5%;
+    height: 4%;
+    position: absolute;
+    top: 61%;
+    left: 21.7%;
+
+}
+
+#Rinzler-Card-1 {
+    width: 1.5%;
+    height: 4%;
+    position: absolute;
+    top: 33.25%;
+    left: 44.985%;
+
+}
+
+#Rinzler-Card-2 {
+    width: 1.5%;
+    height: 4%;
+    position: absolute;
+    top: 33.25%;
+    left: 46.715%;
+
+}
+
+#Rinzler-Card-3 {
+    width: 1.5%;
+    height: 4%;
+    position: absolute;
+    top: 33.25%;
+    left: 48.415%;
+
+}
+
+#Rinzler-Card-4 {
+    width: 1.5%;
+    height: 4%;
+    position: absolute;
+    top: 33.25%;
+    left: 50.115%;
+
+}
+
+#Rinzler-Card-5 {
+    width: 1.5%;
+    height: 4%;
+    position: absolute;
+    top: 33.25%;
+    left: 51.815%;
+
+}
+
+#Rinzler-Card-6 {
+    width: 1.5%;
+    height: 4%;
+    position: absolute;
+    top: 33.25%;
+    left: 53.515%;
+
+}
+
+#Rinzler-Card-7 {
+    width: 1.5%;
+    height: 4%;
+    position: absolute;
+    top: 33.25%;
+    left: 55.215%;
+
+}
+
+#Rinzler-Card-8 {
+    width: 1.5%;
+    height: 4%;
+    position: absolute;
+    top: 33.25%;
+    left: 56.915%;
+
+}
+
+#Rinzler-Card-9 {
+    width: 1.5%;
+    height: 4%;
+    position: absolute;
+    top: 33.25%;
+    left: 58.615%;
+
+}
+
+#Rinzler-Card-10 {
+    width: 1.5%;
+    height: 4%;
+    position: absolute;
+    top: 33.25%;
+    left: 60.315%;
+
+}
+
+#Rinzler-Card-11 {
+    width: 1.5%;
+    height: 4%;
+    position: absolute;
+    top: 33.25%;
+    left: 62.015%;
+
+}
+
+#Rinzler-Card-12 {
+    width: 1.5%;
+    height: 4%;
+    position: absolute;
+    top: 33.25%;
+    left: 63.715%;
+
+}
+
+#Rinzler-Card-13 {
+    width: 1.5%;
+    height: 4%;
+    position: absolute;
+    top: 33.25%;
+    left: 65.415%;
+
+}
+
+#Lyle-Card-1 {
+    width: 1.5%;
+    height: 4%;
+    position: absolute;
+    top: 61%;
+    right: 21.43%;
+
+}
+
+#Lyle-Card-2 {
+    width: 1.5%;
+    height: 4%;
+    position: absolute;
+    top: 61%;
+    right: 19.73%;
+
+}
+
+#Lyle-Card-3 {
+    width: 1.5%;
+    height: 4%;
+    position: absolute;
+    top: 61%;
+    right: 18.03%;
+
+}
+
+#Lyle-Card-4 {
+    width: 1.5%;
+    height: 4%;
+    position: absolute;
+    top: 61%;
+    right: 16.33%;
+
+}
+
+#Lyle-Card-5 {
+    width: 1.5%;
+    height: 4%;
+    position: absolute;
+    top: 61%;
+    right: 14.63%;
+
+}
+
+#Lyle-Card-6 {
+    width: 1.5%;
+    height: 4%;
+    position: absolute;
+    top: 61%;
+    right: 12.93%;
+
+}
+
+#Lyle-Card-7 {
+    width: 1.5%;
+    height: 4%;
+    position: absolute;
+    top: 61%;
+    right: 11.23%;
+
+}
+
+#Lyle-Card-8 {
+    width: 1.5%;
+    height: 4%;
+    position: absolute;
+    top: 61%;
+    right: 9.53%;
+
+}
+
+#Lyle-Card-9 {
+    width: 1.5%;
+    height: 4%;
+    position: absolute;
+    top: 61%;
+    right: 7.83%;
+
+}
+
+#Lyle-Card-10 {
+    width: 1.5%;
+    height: 4%;
+    position: absolute;
+    top: 61%;
+    right: 6.13%;
+
+}
+
+#Lyle-Card-11 {
+    width: 1.5%;
+    height: 4%;
+    position: absolute;
+    top: 61%;
+    right: 4.43%;
+
+}
+
+#Lyle-Card-12 {
+    width: 1.5%;
+    height: 4%;
+    position: absolute;
+    top: 61%;
+    right: 2.73%;
+
+}
+
+#Lyle-Card-13 {
+    width: 1.5%;
+    height: 4%;
+    position: absolute;
+    top: 61%;
+    right: 1.03%;
+
+}
+
+.evy {
+    position: absolute;
+    top: 52.8%;
+    left: 4%;
+
+}
+
+.rinzler {
+    position: absolute;
+    top: 25%;
+    left: 47.8%;
+
+}
+
+.lyle {
+    position: absolute;
+    top: 53%;
+    right: 4%;
+
+}
+
+.player {
+    position: absolute;
+    bottom: 3.5%;
+    left: 45%;
+
+}
+
+
+
+
+
+
+
+
+.deal {
+
+
+    position: absolute;
+    bottom: 25%;
+    left: 65%;
+
+
+}
+
+.playCards {
+
+
+    position: absolute;
+    bottom: 30%;
+    left: 45%;
+
+}
+
+.sortCards {
+
+
+    position: absolute;
+    bottom: 20%;
+    left: 43.5%;
+
+}
+
+.pass {
+
+
+    position: absolute;
+    bottom: 25%;
+    left: 85%;
+}
+
+.newGame {
+
+
+    position: absolute;
+    bottom: 25%;
+    left: 75%;
+
+}
+
+.selected {
+    border: solid yellow;
+}
+
+.selectedPlayer {
+    border: solid rgb(19, 214, 182);
+
+}
+
+
+
+.hidden {
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+.cantClick {
+    color: red;
+}
+
+
+#statusText {
+    position: absolute;
+    top: 120px;
+    right: 7px;
+}

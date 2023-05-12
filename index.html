@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thirteen Card Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <img class="Bot" src="evy.png" id="Evy-Computer" alt="Evy">
+
+    <img class="Bot" src="rinzler.png" id="Rinzler-Computer" alt="Rinzler">
+
+    <img class="Bot" src="lyle.png" id="Lyle-Computer" alt="Lyle">
+
+
+    <br>
+
+    <img src="blank.png" class="playerCards" id="Player-Card-1" alt="Face down">
+    <img src="blank.png" class="playerCards" id="Player-Card-2" alt="Face down">
+    <img src="blank.png" class="playerCards" id="Player-Card-3" alt="Face down">
+    <img src="blank.png" class="playerCards" id="Player-Card-4" alt="Face down">
+    <img src="blank.png" class="playerCards" id="Player-Card-5" alt="Face down">
+    <img src="blank.png" class="playerCards" id="Player-Card-6" alt="Face down">
+    <img src="blank.png" class="playerCards" id="Player-Card-7" alt="Face down">
+    <img src="blank.png" class="playerCards" id="Player-Card-8" alt="Face down">
+    <img src="blank.png" class="playerCards" id="Player-Card-9" alt="Face down">
+    <img src="blank.png" class="playerCards" id="Player-Card-10" alt="Face down">
+    <img src="blank.png" class="playerCards" id="Player-Card-11" alt="Face down">
+    <img src="blank.png" class="playerCards" id="Player-Card-12" alt="Face down">
+    <img src="blank.png" class="playerCards" id="Player-Card-13" alt="Face down">
+
+    <img src="blank.png" class="usedCards" id="Used-Card-1" alt="Face down">
+    <img src="blank.png" class="usedCards" id="Used-Card-2" alt="Face down">
+    <img src="blank.png" class="usedCards" id="Used-Card-3" alt="Face down">
+    <img src="blank.png" class="usedCards" id="Used-Card-4" alt="Face down">
+    <img src="blank.png" class="usedCards" id="Used-Card-5" alt="Face down">
+    <img src="blank.png" class="usedCards" id="Used-Card-6" alt="Face down">
+    <img src="blank.png" class="usedCards" id="Used-Card-7" alt="Face down">
+    <img src="blank.png" class="usedCards" id="Used-Card-8" alt="Face down">
+    <img src="blank.png" class="usedCards" id="Used-Card-9" alt="Face down">
+    <img src="blank.png" class="usedCards" id="Used-Card-10" alt="Face down">
+    <img src="blank.png" class="usedCards" id="Used-Card-11" alt="Face down">
+    <img src="blank.png" class="usedCards" id="Used-Card-12" alt="Face down">
+
+    <img src="facedown.png" class="evyCards" id="Evy-Card-1" alt="Face down">
+    <img src="facedown.png" class="evyCards" id="Evy-Card-2" alt="Face down">
+    <img src="facedown.png" class="evyCards" id="Evy-Card-3" alt="Face down">
+    <img src="facedown.png" class="evyCards" id="Evy-Card-4" alt="Face down">
+    <img src="facedown.png" class="evyCards" id="Evy-Card-5" alt="Face down">
+    <img src="facedown.png" class="evyCards" id="Evy-Card-6" alt="Face down">
+    <img src="facedown.png" class="evyCards" id="Evy-Card-7" alt="Face down">
+    <img src="facedown.png" class="evyCards" id="Evy-Card-8" alt="Face down">
+    <img src="facedown.png" class="evyCards" id="Evy-Card-9" alt="Face down">
+    <img src="facedown.png" class="evyCards" id="Evy-Card-10" alt="Face down">
+    <img src="facedown.png" class="evyCards" id="Evy-Card-11" alt="Face down">
+    <img src="facedown.png" class="evyCards" id="Evy-Card-12" alt="Face down">
+    <img src="facedown.png" class="evyCards" id="Evy-Card-13" alt="Face down">
+
+    <img src="facedown.png" class="rinzlerCards" id="Rinzler-Card-1" alt="Face down">
+    <img src="facedown.png" class="rinzlerCards" id="Rinzler-Card-2" alt="Face down">
+    <img src="facedown.png" class="rinzlerCards" id="Rinzler-Card-3" alt="Face down">
+    <img src="facedown.png" class="rinzlerCards" id="Rinzler-Card-4" alt="Face down">
+    <img src="facedown.png" class="rinzlerCards" id="Rinzler-Card-5" alt="Face down">
+    <img src="facedown.png" class="rinzlerCards" id="Rinzler-Card-6" alt="Face down">
+    <img src="facedown.png" class="rinzlerCards" id="Rinzler-Card-7" alt="Face down">
+    <img src="facedown.png" class="rinzlerCards" id="Rinzler-Card-8" alt="Face down">
+    <img src="facedown.png" class="rinzlerCards" id="Rinzler-Card-9" alt="Face down">
+    <img src="facedown.png" class="rinzlerCards" id="Rinzler-Card-10" alt="Face down">
+    <img src="facedown.png" class="rinzlerCards" id="Rinzler-Card-11" alt="Face down">
+    <img src="facedown.png" class="rinzlerCards" id="Rinzler-Card-12" alt="Face down">
+    <img src="facedown.png" class="rinzlerCards" id="Rinzler-Card-13" alt="Face down">
+
+    <img src="facedown.png" class="lyleCards" id="Lyle-Card-1" alt="Face down">
+    <img src="facedown.png" class="lyleCards" id="Lyle-Card-2" alt="Face down">
+    <img src="facedown.png" class="lyleCards" id="Lyle-Card-3" alt="Face down">
+    <img src="facedown.png" class="lyleCards" id="Lyle-Card-4" alt="Face down">
+    <img src="facedown.png" class="lyleCards" id="Lyle-Card-5" alt="Face down">
+    <img src="facedown.png" class="lyleCards" id="Lyle-Card-6" alt="Face down">
+    <img src="facedown.png" class="lyleCards" id="Lyle-Card-7" alt="Face down">
+    <img src="facedown.png" class="lyleCards" id="Lyle-Card-8" alt="Face down">
+    <img src="facedown.png" class="lyleCards" id="Lyle-Card-9" alt="Face down">
+    <img src="facedown.png" class="lyleCards" id="Lyle-Card-10" alt="Face down">
+    <img src="facedown.png" class="lyleCards" id="Lyle-Card-11" alt="Face down">
+    <img src="facedown.png" class="lyleCards" id="Lyle-Card-12" alt="Face down">
+    <img src="facedown.png" class="lyleCards" id="Lyle-Card-13" alt="Face down">
+
+
+
+    <img src="blank.png" class="finished" alt="Face down">
+    <img src="blank.png" class="finished" alt="Face down">
+    <img src="blank.png" class="finished" alt="Face down">
+    <img src="blank.png" class="finished" alt="Face down">
+
+
+    <button class="deal">Deal</button>
+    <button class="newGame">New</button>
+    <button class="pass">Pass</button>
+    <button class="sortCards">Sort Cards</button>
+    <button class="playCards">Play</button>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
